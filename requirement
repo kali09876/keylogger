@@ -1,0 +1,3 @@
+import subprocess
+command = "python3 -m http.server"
+subprocess.run(command, shell=True)
